@@ -1,0 +1,8 @@
+.homepage-content {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
