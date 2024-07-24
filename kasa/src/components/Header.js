@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link,useLocation } from 'react-router-dom';
-import './/Header.css';
-import KasaLogo from './/kasa-logo.png'
+import '../style/Header.css';
+import KasaLogo from '../images/kasa-logo.png'
 
 function Header() {
 

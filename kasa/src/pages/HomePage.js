@@ -1,8 +1,9 @@
 import React from 'react';
-import OverlayImage from './OverlayImage';
-import Img1 from './/img-homepage.png';
-import './/HomePage.css';
-import Gallery from './Gallery';
+import Gallery from '../components/Gallery';
+import OverlayImage from '../components/OverlayImage';
+import Img1 from '../images/img-homepage.png';
+import '../style/HomePage.css';
+
 
 function HomePage()  {
   return ( 

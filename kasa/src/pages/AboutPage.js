@@ -1,15 +1,16 @@
 import React from 'react';
-import OverlayImage from './OverlayImage';
-import './OverlayImage.css';
-import './/HomePage.css';
-import './AboutPage.css'
-import aboutImage from './/img-about.png';
-import Collapse from './Collapse';
+import OverlayImage from '../components/OverlayImage';
+import Collapse from '../components/Collapse';
+import '../style/OverlayImage.css';
+import '../style/HomePage.css';
+import '../style/AboutPage.css'
+import Img2 from '../images/img-about.png';
+
 
 function AboutPage() {
   return (
     <div className='homepage-content'>
-      <OverlayImage src={aboutImage} alt="A Propos" lightdark/>
+      <OverlayImage src={Img2} alt="A Propos" lightdark/>
       <div className="about-content">
         <Collapse title="Fiabilité">
           <p>

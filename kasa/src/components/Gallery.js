@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Gallery.css';
+import '../style/Gallery.css';
 import Card from './Card';
 
 function Gallery() {
