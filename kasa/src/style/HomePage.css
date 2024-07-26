@@ -9,3 +9,9 @@
 .darken {
     filter: brightness(40%);
 }
+@media (min-width: 320px) and (max-width: 768px) {
+    .homepage-content {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}

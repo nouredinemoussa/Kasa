@@ -37,3 +37,17 @@
     width: 90%
   }
   
+  @media (min-width: 320px) and (max-width: 768px) {
+    .overlay-container {
+      border-radius: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .overlay-image {
+      height: 111px;
+      border-radius: 10px;
+    }
+    .overlay-text {
+      font-size: 24px;
+    }
+  }
