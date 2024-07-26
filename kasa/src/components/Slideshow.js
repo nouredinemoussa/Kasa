@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../style/Slideshow.css';
+import ChevronLeft from '../images/chevron-left.png'
+import ChevronRight from '../images/chevron-right.png'
 
 function Slideshow({ pictures }) {
   const [current, setCurrent] = useState(0);
@@ -22,10 +24,10 @@ function Slideshow({ pictures }) {
       {pictures.length > 1 && (
         <>
           <div className="left-arrow" onClick={prevSlide}>
-            <i className="fas fa-chevron-left"></i>
+            <img src={ChevronLeft} alt="Clic gauche"/>
           </div>
           <div className="right-arrow" onClick={nextSlide}>
-            <i className="fas fa-chevron-right"></i>
+          <img src={ChevronRight} alt="Clic droit"/>
           </div>
           <div className="slideshow-counter">
             {current + 1} / {length}

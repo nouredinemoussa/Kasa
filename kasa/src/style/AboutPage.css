@@ -4,3 +4,8 @@
     align-items: center;
     margin-top: 20px;
 }
+.about-collapse {        
+    margin-bottom: 10px;
+     overflow: hidden;
+    width: 80%;
+}

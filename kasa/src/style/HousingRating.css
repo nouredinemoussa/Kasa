@@ -1,0 +1,20 @@
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .fa-star {
+    font-size: 18px;
+  }
+  
+  .filled {
+    color: #ff6060;
+  }
+  
+  .empty {
+    color: #ccc;
+  }
+  

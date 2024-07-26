@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .logo img {
@@ -21,4 +22,19 @@
   
   .nav-links a.active {
     border-bottom: 2px solid black;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .header {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .logo > img {
+      width: 130px;
+      height: 41px;
+    }
+    .nav-links > a {
+      font-size: 12px;
+      margin-left: 10px;
+    }
   }
