@@ -23,3 +23,21 @@
     margin-bottom: 80px;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    .error-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .error-content > img {
+        width: 198px;
+        height: 99px;
+    }
+    .error-message {
+        font-size: 18px;
+        text-align: center;
+    }
+    .error-link {
+        font-size: 14px;
+    }
+}
+

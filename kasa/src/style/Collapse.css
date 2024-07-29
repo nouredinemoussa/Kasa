@@ -50,6 +50,7 @@
 list-style: none;
 position: relative;
 right: 32px;
+bottom: 10px;
   }
   @media (min-width: 320px) and (max-width: 768px) {
    .collapse-header {
