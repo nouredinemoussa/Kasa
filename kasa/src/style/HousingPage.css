@@ -29,11 +29,15 @@ margin-left: 100px;
 margin-right: 100px;
 margin-bottom: 18px;
 display: flex;
+flex-direction: column;
 }
-.housing-content-1 {
+.housing-info {
+    display: flex;
+}
+.housing-info-1 {
     width: 50%;
 }
-.housing-content-2 {
+.housing-info-2 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -76,4 +80,73 @@ display: flex;
     padding-top: 2px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.housing-collapses {
+    display: flex;
+    gap: 10px;
+}
+@media (min-width: 320px) and (max-width: 768px) { 
+    .housing-page {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .housing-content {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .housing-info {
+        flex-direction: column;
+    }
+    .housing-info-1 {
+        width: 100%;
+    }
+    .housing-info-2 {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .housing-title {
+        font-size: 18px;
+    }
+    .housing-location {
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .tag {
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 2.5;
+        padding-top: 1px;
+    }
+    .host-name {
+        font-size: 12px;
+    }
+    .host-picture {
+        width: 32px;
+        height: 32px;
+    }
+    .host-info {
+        gap: 0px;
+        width: 100%;
+    }
+    .rating {
+        gap: 6px;
+        align-self: center;
+        margin-top: 11px;
+        margin-bottom: 0;
+    }
+    .fa-star {
+        font-size: 13px;
+    }
+    .housing-collapses {
+        flex-direction: column;
+        gap: 0;
+    }
+    .housing-collapse {
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 14px;
+    }
 }

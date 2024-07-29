@@ -34,7 +34,8 @@ function HousingPage() {
     <div className="housing-page">
       <Slideshow pictures={property.pictures} />
       <div className="housing-content">
-        <div className="housing-content-1">
+        <div className= "housing-info">
+        <div className="housing-info-1">
       <h1 className="housing-title">{property.title}</h1>
       <p className="housing-location">{property.location}</p>
       <div className="tags">
@@ -42,16 +43,18 @@ function HousingPage() {
           <span key={index} className="tag">{tag}</span>
         ))}
       </div>
-      <Collapse title="Description" className="housing-collapse">
-        {property.description}
-      </Collapse>
       </div>
-      <div className="housing-content-2">
+      <div className="housing-info-2">
       <div className="host-info">
         <div className="host-name">{property.host.name}</div>
         <img src={property.host.picture} alt={property.host.name} className="host-picture" />
       </div>
       <HousingRating rating={property.rating} />
+      </div>
+      </div>
+      <div className="housing-collapses"><Collapse title="Description" className="housing-collapse">
+        {property.description}
+      </Collapse>
       <Collapse title="Equipements" className="housing-collapse">
         <ul>
           {property.equipments.map((equipment, index) => (
