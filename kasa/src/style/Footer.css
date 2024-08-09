@@ -19,7 +19,10 @@
     font-family: 'Montserrat';
   }
   @media (min-width: 320px) and (max-width: 768px) {
-   .footer-text {
+   .footer {
+    padding-bottom: 42px;
+   }
+    .footer-text {
     font-size: 12px;
    } 
   }

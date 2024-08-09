@@ -46,7 +46,7 @@ flex-direction: column;
 }
 .host-info {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: flex-end;
     padding-top: 10px;
 }
@@ -128,7 +128,7 @@ flex-direction: column;
         height: 32px;
     }
     .host-info {
-        gap: 0px;
+        gap: 10px;
         width: 100%;
     }
     .rating {
