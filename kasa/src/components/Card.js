@@ -6,6 +6,7 @@ function Card({ accommodation }) {
   return (
     <Link to={`/property/${accommodation.id}`} className="card-link">
     <div className="card">
+      <div className="card-shadow"></div>
       <img src={accommodation.cover} alt={accommodation.title} className="card-image" />
       <div className="card-title">{accommodation.title}</div>
     </div>

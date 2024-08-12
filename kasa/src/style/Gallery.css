@@ -5,7 +5,6 @@
     justify-content: center;
     background: #f6f6f6;
     border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding-bottom:50px;
     padding-top: 50px;
     margin-top: 50px;
@@ -13,7 +12,6 @@
   @media (min-width: 320px) and (max-width: 768px) {
     .gallery {
       background: white;
-      box-shadow: none;
       padding-bottom:0px;
       padding-top: 0px;
       margin-top: 20px;
