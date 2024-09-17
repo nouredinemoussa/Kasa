@@ -11,7 +11,7 @@ import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
     <Header/>
       <Routes>
         <Route path="/" element={<HomePage />} />
